@@ -1,0 +1,15 @@
+{
+  "name": "cds-service",
+  "author": "Nikolai Schwertner, Interopion",
+  "version": "0.2.0",
+  "description": "Sample CDS Hooks Service",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon service.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
